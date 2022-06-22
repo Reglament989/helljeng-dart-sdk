@@ -14,7 +14,7 @@ class Hj {
   String? token;
   String? refreshToken;
 
-  Hj(String s, {required String baseUrl, String? token, String? refreshToken}) {
+  Hj({required String baseUrl, String? token, String? refreshToken}) {
     token = token;
     refreshToken = refreshToken;
     dio = Dio()
